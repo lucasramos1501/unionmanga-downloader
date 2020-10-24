@@ -28,7 +28,7 @@
 
 0) Clone o repositório;<br>
 1) Baixe as dependências;<br>
-### `yarn add`
+  <code>  `yarn add` </code>
 2) Pegue o link do site, exemplo abaixo;<br>
 ### ` https://unionmangas.top/leitor/Spy_X_Family/35` <br>
 3) Acesse a aplicação em http://localhost:3000;<br>
