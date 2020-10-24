@@ -30,10 +30,9 @@
 1) Baixe as dependências;<br>
   <code>  `yarn add` </code>
 2) Pegue o link do site, exemplo abaixo;<br>
-### ` https://unionmangas.top/leitor/Spy_X_Family/35` <br>
-3) Acesse a aplicação em http://localhost:3000;<br>
-4) Dentro da pasta do projeto execulte o seguinte script;<br>
-### `yarn index.js link_do_site nome_da_pasta`<br>
+  <code>  ` https://unionmangas.top/leitor/Spy_X_Family/35`  </code> <br> 
+3) Dentro da pasta do projeto execulte o seguinte script;<br>
+  <code>  `yarn index.js link_do_site nome_da_pasta`  </code> <br>
 
 ## Licença
 
