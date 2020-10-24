@@ -1,16 +1,23 @@
 const imgDownload = require('image-downloader');
+const fs = require('fs');
+const { promisify } = require('util')
+
+const readDir = promisify(fs.readdir)
+const unLink = promisify(fs.unlink)
 
 const options = {
     url: '',
-    dest: './downloads'
+    dest: './downloads/'
 }
 
-function imgDownloader(url) {
-    options.url = url;
+async function imgDownloader(url, destImg) {
+    const dest = `./downloads/${destImg}`;
 
-    imgDownload.image(options)
+    fs.mkdir(dest, () => {});
+
+    imgDownload.image({ url, dest })
         .then(({ filename }) => {
-            console.log('Saved to', filename) // saved to /path/to/dest/photo.jpg
+            console.log('Arquivo baixado: ', filename);
         })
         .catch((err) => console.error(err))
 }
