@@ -1,5 +1,4 @@
 <h1 align="center">
-TinDev - Tinder para Devs
   <br>
   <br>
     <strong>Union Manga Downloader</strong>
