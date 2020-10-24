@@ -18,12 +18,12 @@
 
 ## ⚙️ Características
 
- ClI, para baixar mangas pelo link.
+ CLI, para baixar mangas pelo link.
 
 ## 🛠 Tecnologias
 
 - NodeJS
-
+<p>Caso não tenha o yarn instalado <a href="https://classic.yarnpkg.com/pt-BR/">link</a></p>
 ## 💻 Utilização
 
 0) Clone o repositório;<br>
