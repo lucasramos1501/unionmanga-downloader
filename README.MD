@@ -27,7 +27,7 @@
 ## 💻 Utilização
 
 0) Clone o repositório;<br>
-  <code> `git clone https://github.com/lucasramos1501/unionmanga-downloader` <code>
+  <code> `git clone https://github.com/lucasramos1501/unionmanga-downloader` </code><br>
 1) Baixe as dependências;<br>
   <code>  `yarn add` </code>
 2) Pegue o link do site, exemplo abaixo;<br>
